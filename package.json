@@ -1,0 +1,23 @@
+{
+  "name": "2d-chess",
+  "version": "1.0.0",
+  "description": "A Simple chess engine made using p5.js",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnirudhKumar99/MyChess.git"
+  },
+  "keywords": [
+    "p5.js",
+    "chess"
+  ],
+  "author": "Anirudh Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnirudhKumar99/MyChess/issues"
+  },
+  "homepage": "https://github.com/AnirudhKumar99/MyChess#readme"
+}
