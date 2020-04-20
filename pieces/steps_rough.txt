@@ -1,0 +1,25 @@
+Game movement logic
+
+    -Input two positions 
+        eg src=a3, dest=b3
+    -See piece at src
+        -Check all positions possible for that piece
+        -Updata possible boxes
+        -Check if dest in possible boxes
+            -possible 
+                move piece from src to dest
+
+To get src and dest for above logic
+    -First mouseClick take box name(a1 to h8) as src
+        -set a flag to true
+        -calculate all possible boxes
+    -Second mouseClick take box name as dest
+        -check if dest in possible boxes
+        if dest == src
+            -no movement
+            set flag to false
+            do not change player
+        else
+            -movement
+            set flag to false
+            change player
